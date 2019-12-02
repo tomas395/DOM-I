@@ -112,6 +112,11 @@ contactPTags[1].innerText = "1 (888) 888-8888";
 contactPTags[2].setAttribute("contact", "email");
 contactPTags[2].innerText = "sales@greatidea.io";
 
+let footer = document.querySelector("footer");
+footer.textContent = siteContent["footer"]["copyright"];
+
+// this is the append and prepend content
+
 const newContent = document.createElement("a");
 newContent.textContent = "Reviews";
 newContent.classList.add("button");
